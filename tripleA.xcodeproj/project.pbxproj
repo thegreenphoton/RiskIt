@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		9E8D167E2D40B2240094BD03 /* tripleAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D167D2D40B2240094BD03 /* tripleAApp.swift */; };
-		9E8D16802D40B2240094BD03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D167F2D40B2240094BD03 /* ContentView.swift */; };
+		9E8D16802D40B2240094BD03 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8D167F2D40B2240094BD03 /* HomePage.swift */; };
 		9E8D16822D40B2260094BD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D16812D40B2260094BD03 /* Assets.xcassets */; };
 		9E8D16852D40B2260094BD03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D16842D40B2260094BD03 /* Preview Assets.xcassets */; };
+		E2A830B82D40C3440073E0AB /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A830B72D40C3440073E0AB /* ProfilePage.swift */; };
+		E2A830BA2D40C4E80073E0AB /* LeaderboardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A830B92D40C4E80073E0AB /* LeaderboardPage.swift */; };
+		E2A830BC2D40C5000073E0AB /* FriendsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A830BB2D40C5000073E0AB /* FriendsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E8D167A2D40B2240094BD03 /* tripleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8D167D2D40B2240094BD03 /* tripleAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripleAApp.swift; sourceTree = "<group>"; };
-		9E8D167F2D40B2240094BD03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E8D167F2D40B2240094BD03 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		9E8D16812D40B2260094BD03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E8D16842D40B2260094BD03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2A830B72D40C3440073E0AB /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		E2A830B92D40C4E80073E0AB /* LeaderboardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardPage.swift; sourceTree = "<group>"; };
+		E2A830BB2D40C5000073E0AB /* FriendsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				9E8D167D2D40B2240094BD03 /* tripleAApp.swift */,
-				9E8D167F2D40B2240094BD03 /* ContentView.swift */,
+				9E8D167F2D40B2240094BD03 /* HomePage.swift */,
+				E2A830B72D40C3440073E0AB /* ProfilePage.swift */,
+				E2A830B92D40C4E80073E0AB /* LeaderboardPage.swift */,
+				E2A830BB2D40C5000073E0AB /* FriendsPage.swift */,
 				9E8D16812D40B2260094BD03 /* Assets.xcassets */,
 				9E8D16832D40B2260094BD03 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E8D16802D40B2240094BD03 /* ContentView.swift in Sources */,
+				9E8D16802D40B2240094BD03 /* HomePage.swift in Sources */,
+				E2A830BA2D40C4E80073E0AB /* LeaderboardPage.swift in Sources */,
 				9E8D167E2D40B2240094BD03 /* tripleAApp.swift in Sources */,
+				E2A830B82D40C3440073E0AB /* ProfilePage.swift in Sources */,
+				E2A830BC2D40C5000073E0AB /* FriendsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
