@@ -28,19 +28,15 @@ struct ContentView: View  {
     
 
     var body: some View {
-        VStack {
-            Button(action: {
-                saveDataToFirestore()
-                print("Button was clicked")
-            }) {
-                Text("Save to Firebase")
-                    .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
+            ZStack {
+                Color(red: 0.07, green: 0.55, blue: 0.33) // #128c55
+                    .ignoresSafeArea()
+                
+                Text("RiskIt")
+                    .font(.system(size: 48, weight: .regular))
+                    .foregroundColor(Color(red: 0.035, green: 0.035, blue: 0.035)) // #090909
             }
         }
-    }
     
     func saveDataToFirestore() {
         print("In Save Data function")
@@ -59,16 +55,6 @@ struct ContentView: View  {
             }
         }
     }
-//            }
-//            VStack {
-//                Image(systemName: "globe")
-//                    .imageScale(.large)
-//                    .foregroundColor(.accentColor)
-//                Text("Hello, world!")
-//            }
-//            .padding()
-//        }
-//    }
 }
 
 struct ContentView_Previews: PreviewProvider {
